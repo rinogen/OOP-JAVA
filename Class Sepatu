@@ -1,0 +1,20 @@
+class Sepatu{
+	int ukuranEu;
+	int ukuranUK;
+	String warna;
+	
+	Sepatu ( int ukuranEu , int ukuranUK , String warna){
+		this.ukuranEu 	= ukuranEu ;
+		this.ukuranUK	= ukuranUK;
+		this.warna		= warna;
+	}
+	
+	public String toString(){
+		return "Ukuran EUROPE = " + ukuranEu + "\n" + "Ukuran UK = " + ukuranUK + "\n" + "Warna  = " + warna;
+	
+	}
+	
+	
+	
+	
+}
