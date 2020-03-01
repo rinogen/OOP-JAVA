@@ -1,0 +1,19 @@
+class PapanTulis{
+	int panjag;
+	int lebar;
+	String warna;
+	
+	PapanTulis (inputP, inputL , inputW){
+		panjang = inputP;
+		lebar	= inputL;
+		warna	= inputW;
+	}	
+}
+	
+
+public class main{
+	public static void ( String [] args){
+		PapanTulis papantulis1 = new PapanTuluis();
+		System.out.println( 10 , 11 , "putih");
+		
+	}
