@@ -1,0 +1,50 @@
+public class Tugas1{
+	public static void main(String [] srgs){
+		
+		// SEPATU //
+		
+		System.out.println("DAFATR SEPATU ");
+		Sepatu spt1 = new Sepatu(40 , 12 , "hitam");
+		System.out.println(spt1);
+		System.out.println();
+		
+		Sepatu spt2 = new Sepatu(42 , 14 , "merah");
+		System.out.println(spt2);
+		System.out.println();
+		
+		Sepatu spt3 = new Sepatu(46 , 16 , "putih");
+		System.out.println(spt3);
+		System.out.println();
+		System.out.println();
+	
+		// LAPTOP //
+		System.out.println("DAFATR LAPTOP");
+		Laptop lpt1 = new Laptop ("Nvidia GTX 1080" , 32 , "MSI" );
+		System.out.println("Prosesor = " + lpt1.vga + "\n" + "RAM = "  + lpt1.ram + "\n" + "Warna = " + lpt1.merk);
+		System.out.println();
+		
+		Laptop lpt2 = new Laptop ("Zotec  2080" , 64 , "ASUS" );
+		System.out.println("Prosesor = " + lpt2.vga + "\n" + "RAM = "  + lpt2.ram + "\n" + "Warna = " + lpt2.merk);
+		System.out.println();
+		
+		Laptop lpt3 = new Laptop (" Asrock 3080 " , 128 , "ACER" );
+		System.out.println("Prosesor = " + lpt3.vga + "\n" + "RAM = "  + lpt3.ram + "\n" + "Warna = " + lpt3.merk);
+		System.out.println();
+		System.out.println();
+		
+		// PHONE //
+		System.out.println("DAFATR HANDPHONE");
+		Phone phn1 = new Phone ( 2 , 5 , " Mediatek 965 ");
+		System.out.println("ROM = " + phn1.ROM + "Kamera = " + "\n" + phn1.kamera + "Processor = " + phn1.processor);
+		System.out.println();
+		
+		Phone phn2 = new Phone ( 4 , 8 , " Helios 146 ");
+		System.out.println("ROM = " + phn2.ROM + "\n" + "Kamera = " + phn2.kamera + "\n" + "Processor = " + phn2.processor);
+		System.out.println();
+		
+		Phone phn3 = new Phone ( 8 , 16, " Snapdragon 289 ");
+		System.out.println("ROM = " + phn3.ROM + "\n" + "Kamera = " + phn3.kamera + "\n" + "Processor = " + phn3.processor);
+		System.out.println();
+		System.out.println();
+	}
+}
