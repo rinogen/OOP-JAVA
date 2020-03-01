@@ -1,0 +1,11 @@
+class Phone{
+	int ROM ;
+	int kamera ;
+	String processor ;
+	
+	Phone (int ROM , int kamera , String processor ){
+		this.ROM		= ROM ;
+		this.kamera		= kamera ;
+		this.processor	= processor ;
+	}
+}
