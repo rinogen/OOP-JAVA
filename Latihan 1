@@ -1,0 +1,10 @@
+class Latihan1{
+	public static void main (String args[]){
+		int panjang 	= 16; 
+		int lebar		= 9;
+		String warna	= "putih";
+		
+		System.out.println("Papan tulis dengan warna= " + warna + " dengan panjang= " + panjang +  " dengan lebar = " + lebar );
+	
+	}
+}
