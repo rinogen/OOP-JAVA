@@ -1,0 +1,11 @@
+class Laptop{
+	String vga;
+	int ram;
+	String merk;
+	
+	Laptop ( String vga , int ram , String merk){
+		this.vga	 	= vga ;
+		this.ram		= ram;
+		this.merk		= merk;
+	}
+}
