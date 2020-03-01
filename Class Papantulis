@@ -1,0 +1,24 @@
+class PapanTulis{
+	int panjang;
+	int lebar;
+	String warna;
+	
+	PapanTulis (int panjang, int lebar , String warna){
+		this.panjang= panjang;
+		this.lebar	= lebar;
+		this.warna	= warna;
+	}
+	
+	
+	PapanTulis (int panjang , int lebar){
+		this.panjang= panjang ;
+		this.lebar	= lebar ;
+		warna		= "putih";
+		
+	}	
+	
+	public String toString(){
+		return "Papan tulis dengan warna= " + warna + " dengan panjang= " + panjang +  " dengan lebar = " + lebar;
+	}
+
+}
