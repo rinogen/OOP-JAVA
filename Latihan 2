@@ -1,0 +1,23 @@
+class Latihan2{
+	public static void main (String args[]){
+		int panjang1 	= 16; 
+		int panjang2 	= 9;
+		int panjang3 	= 6;
+		
+		int lebar1		= 8;
+		int lebar2		= 7;
+		int lebar3		= 2;
+		
+		String warna1	= "putih";
+		String warna2	= "biru";
+		String warna3	= "merah";
+	
+		System.out.println("Papan tulis dengan warna= " + warna1 + " dengan panjang= " + panjang1 +  " dengan lebar = " + lebar1 );
+		System.out.println("Papan tulis dengan warna= " + warna2 + " dengan panjang= " + panjang2 +  " dengan lebar = " + lebar2 );
+		System.out.println("Papan tulis dengan warna= " + warna3 + " dengan panjang= " + panjang3 +  " dengan lebar = " + lebar3 );
+		
+		
+	}
+		
+		
+}
